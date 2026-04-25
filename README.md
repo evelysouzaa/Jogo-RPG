@@ -18,5 +18,4 @@ javac -d out $(find src -name "*.java")
 # Executar
 java -cp out br.com.rpg.principal.JogoRPG
 ```
-
-
+![print](https://i.imgur.com/NSQlkoW.png)
