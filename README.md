@@ -7,20 +7,7 @@ Projeto Java demonstrando Programação Orientada a Objetos com:
 - Encapsulamento (atributos `protected`/getters/setters)
 - Sobrescrita de métodos (`@Override`)
 
-## Estrutura de Pacotes
 
-```
-src/br/com/rpg/
-├── modelo/
-│   ├── Personagem.java   ← classe abstrata base
-│   ├── Guerreiro.java
-│   ├── Mago.java
-│   └── Arqueiro.java
-├── sistema/
-│   └── Arena.java        ← sistema de batalha e torneio
-└── principal/
-    └── JogoRPG.java      ← ponto de entrada (main)
-```
 
 ## Como compilar e executar
 
@@ -32,4 +19,4 @@ javac -d out $(find src -name "*.java")
 java -cp out br.com.rpg.principal.JogoRPG
 ```
 
-Requer Java 8+.
+
